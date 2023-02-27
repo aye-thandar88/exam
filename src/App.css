@@ -1,0 +1,151 @@
+/* --------------Header */
+
+#header {
+  background-color: #eaf6f6;
+  padding: 1rem 2rem 1rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile {
+  width: 10%;
+  border-radius: 100%;
+}
+
+li {
+  display: block;
+  float: left;
+  padding: 0 1rem;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.pf-txt-style {
+  font-size: 15px;
+  font-family: "Sofia", sans-serif;
+  margin: 0;
+}
+
+
+/* ------------------Top */
+
+#top {
+  background-color: #eaf6f6;
+  padding: 0 1rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.top-div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.img-wh {
+  width: 60%;
+  max-height: 500px;
+}
+
+.left-cloud {
+  margin-top: auto;
+}
+
+.name-font {
+  font-family: "Sofia", sans-serif;
+}
+
+/* ------------------About */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.myPic {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.about-div {
+  max-width: 450px;
+}
+
+/* ---------------------- Skill */
+#skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.skill-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.skill-img {
+  max-width: 25%;
+}
+
+.desing-div {
+  max-width: 50%;
+  padding: 1rem;
+}
+
+/* --------------------- Contact */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.contact-div {
+  max-width: 80%;
+}
+
+.btn-contact {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 18px;
+  border: 0px;
+  background: #66bfbf;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+}
+
+/* --------------------footer */
+#footer {
+  background-color: #eaf6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+span {
+  padding: 3rem;
+}
+
+.footer-div {
+  padding: 1rem;
+  font-size: 20px;
+}
